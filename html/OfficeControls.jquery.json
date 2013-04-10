@@ -1,0 +1,24 @@
+{
+    "name": "OfficeControls",
+    "title": "jQuery OfficeControls",
+    "description": "jQuery plugin for using the Office 2013 ribbon.",
+    "keywords": [
+        "office",
+        "ribbon"
+    ],
+    "version": "0.1.2",
+    "author": {
+        "name": "Logic Software Solutions",
+        "url": "https://github.com/Logic-Software-Solutions/"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "homepage": "http://logic-software-solutions.github.io/jQuery.OfficeControls/",
+    "dependencies": {
+        "jquery": ">=1.9.1"
+    }
+}

@@ -1,0 +1,204 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 11px;
+    color: Black;
+    height: 100%;
+}
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+.clear
+{
+    clear: both;
+}
+.error
+{
+    color: Red;
+}
+#content
+{
+    position: absolute;
+    width: 100%;
+}
+#OfficeControls
+{
+    height: 152px;
+}
+#OfficeControls .ribbon
+{
+}
+#OfficeControls .ribbon .header
+{
+    height: 49px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-bottom: 1px solid #D4D4D4;
+}
+#OfficeControls .ribbon .header .title
+{
+    color: #666666;
+    display: block;
+    padding-top: 8px;
+}
+#OfficeControls .ribbon .ribbon_contents .tabs
+{
+    position: absolute;
+    height: 25px;
+    text-transform: uppercase;
+    top: 24px;
+}
+#OfficeControls .ribbon .ribbon_contents .tabs .tab
+{
+    background-color: white;
+    color: #666666;
+    margin-left: 0px;
+    line-height: 25px;
+    height: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#OfficeControls .ribbon .ribbon_contents .tabs .tab:hover
+{
+    color: #2B579A;
+}
+
+#OfficeControls .ribbon .ribbon_contents .tabs .active
+{
+    border: 1px solid #D4D4D4;
+    border-bottom: none;
+    padding-top: -1px;
+    color: #2B579A;
+    line-height: 23px;
+    margin-left: 5px;
+}
+
+#OfficeControls .ribbon .ribbon_contents .tabs .inactive
+{
+    border-bottom: 1px solid #D4D4D4;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-left: 5px;
+    padding-left: 21px;
+    padding-right: 21px;
+}
+#OfficeControls .ribbon .ribbon_contents .tabs .application
+{
+    background-color: #2B579A;
+    color: white;
+    border-bottom: 1px solid #2B579A;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#OfficeControls .ribbon .ribbon_contents .controls
+{
+    padding: 5px;
+    height: 92px;
+    border-bottom: 1px solid #D4D4D4;
+}
+
+#OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group
+{
+    border-right: 1px solid #D4D4D4;
+    height: 92px;
+    float: left;
+}
+
+#OfficeControls .ribbon .ribbon_contents .controls .active
+{
+    display: block;
+}
+
+#OfficeControls .ribbon .ribbon_contents .controls .inactive
+{
+    display: none;
+}
+
+#OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .legend
+{
+    position: relative;
+    top: 12px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections
+{
+    height: 65px;
+}
+
+#OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections .section
+{
+    float: left;
+    height: 100%;
+}
+
+#OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections .section A
+{
+	color: black;
+	text-decoration: none;
+}
+
+#OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections .section .bigIcon
+{
+    height: 64px;
+    width: 64px;
+    text-align: center;
+    float: left;
+}
+
+#OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections .section .smallIcon
+{
+    height: 25px;
+    line-height: 25px;
+}
+
+#OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections .section .smallIcon:hover, #OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections .section .bigIcon:hover
+{ cursor: pointer; }
+
+#OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections .section .bigIcon .enabled, #OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections .section .smallIcon .enabled
+{
+    cursor: pointer;
+}
+
+#OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections .section .bigIcon .disabled, #OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections .section .smallIcon .disabled
+{
+    cursor: default;
+}
+
+#OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections .section .bigIcon IMG
+{
+    width: 48px;
+    height: 48px;
+}
+
+#OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections .section .smallIcon IMG
+{
+    width: 16px;
+    height: 16px;
+    float: left;
+}
+
+#OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections .section .bigIcon .title
+{
+    top: 5px;
+    position: relative;
+}
+
+#OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections .section .smallIcon .title
+{
+    padding-right: 10px;
+    padding-left: 10px;
+}
