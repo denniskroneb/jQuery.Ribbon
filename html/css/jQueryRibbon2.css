@@ -1,0 +1,134 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    font-size: 11px;
+    height: 100%;
+}
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+.clear
+{
+    clear: both;
+}
+.error
+{
+    color: Red;
+}
+
+.nopadding
+{
+	padding: 0px;
+}
+
+.nomargin
+{
+	margin: 0px;
+}
+
+#OfficeControls
+{
+    font-family: 'Segoe UI', Arial, Verdana, 'Sans-Serif';
+	font-size: 9pt;
+	color: #666666;
+}
+
+#OfficeControls .ribbon .header
+{
+	width: 100%;
+	text-align: center;
+}
+
+#OfficeControls .ribbon .header .top
+{
+	margin-top: 0px;
+	text-align: center;
+	margin-top: 3px;
+}
+
+#OfficeControls .ribbon .header .top .title
+{
+	margin-top: 3px;
+	display: inline-block;
+}
+
+#OfficeControls .ribbon .header .top .actions
+{
+	position: absolute;
+	left: 0px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#OfficeControls .ribbon .header .top .actions .icons
+{
+	display: inline-block;
+	margin-left: 4px;
+}
+
+#OfficeControls .ribbon .header .top .actions .icons .ico
+{
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	margin-right: -1px;
+	padding-top: 3px;
+}
+
+#OfficeControls .ribbon .header .top .actions .icons .enabled:hover
+{
+	cursor: default;
+	background-color: #D5E1F2;
+	width: 22px;
+	height: 19px;
+}
+
+#OfficeControls .ribbon .header .top .actions .icons  .disabled
+{
+	opacity: 0.3;
+}
+
+#OfficeControls .ribbon .header .top .actions .seperator
+{
+	display: inline-block;
+	width: 6px;
+	border-right: 1px solid #DFDFDF;
+	position: relative;
+	top: -3px;
+}
+
+#OfficeControls .ribbon .header .top .actions .breadcrumb
+{
+	display: inline-block;
+	padding-left: 10px;
+	position: relative;
+	top: -3px;
+}
+
+#OfficeControls .ribbon .header .top .actions .breadcrumb .main
+{
+	color: black;
+	display: inline-block;
+}
+
+#OfficeControls .ribbon .header .top .actions .breadcrumb .seperator 
+{
+	display: inline-block;
+	border: none;
+	padding-left: 3px;
+	position: relative;
+	top: 4px;
+}
+
+#OfficeControls .ribbon .header .top .actions .breadcrumb .item 
+{
+	display: inline-block;
+	padding-left: 3px;
+}

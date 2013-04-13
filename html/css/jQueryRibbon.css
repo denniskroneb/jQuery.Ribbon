@@ -162,7 +162,7 @@ body
 #OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections .section .smallIcon
 {
     height: 25px;
-    line-height: 25px;
+    line-height: 15px;
 }
 
 #OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections .section .smallIcon:hover, #OfficeControls .ribbon .ribbon_contents .controls .groupHolder .group .sections .section .bigIcon:hover
